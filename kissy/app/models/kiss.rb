@@ -1,0 +1,2 @@
+class Kiss < ApplicationRecord
+end
