@@ -17,7 +17,7 @@ class KissesController < ApplicationController
 
 private
   def kiss_params
-    params.require(:kiss).permit(:content)
+    params.require(:kiss).permit(:content, :category_id)
   end
-  
+
 end
