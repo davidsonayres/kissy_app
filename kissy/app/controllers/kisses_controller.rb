@@ -1,0 +1,2 @@
+class KissesController < ApplicationController
+end

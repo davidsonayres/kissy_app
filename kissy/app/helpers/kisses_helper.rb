@@ -1,0 +1,2 @@
+module KissesHelper
+end
