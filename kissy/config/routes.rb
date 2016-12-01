@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :categories do
     resources :kisses
+    get 'random_kiss' => 'kisses#random'
   end
 
 end

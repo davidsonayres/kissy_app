@@ -15,6 +15,11 @@ class KissesController < ApplicationController
     @kiss = Kiss.find(params[:id])
   end
 
+  def random
+    kiss = Kiss.all.sample
+    render html: kiss.content
+  end
+
 private
   def kiss_params
     params.require(:kiss).permit(:content, :category_id)
