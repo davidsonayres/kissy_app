@@ -1,5 +1,5 @@
 <h1>Categories</h1>
 
 <% @categories.each do |category| %>
-<p><a href='kisses#show'><%= category.name %></a></p>
+<p><a href='/<%= category.id %>/kisses'><%= category.name %></a></p>
 <% end %>
