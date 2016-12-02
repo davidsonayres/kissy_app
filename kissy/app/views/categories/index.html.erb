@@ -1,5 +1,3 @@
-<div class="category_wrap">
 <% @categories.each do |category| %>
-<button id='category'><%= link_to category.name, category_kisses_path(category) %></button></br>
+<button id='category'><%= link_to category.name, category_kisses_path(category) %></button>
 <% end %>
-</div>
