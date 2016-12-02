@@ -1,3 +1,38 @@
 // Place all the styles related to the categories controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  font-family: 'Sansita One', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #FF7078;
+  color: #FFF3F4;
+}
+
+.category_wrap {
+
+  overflow: auto;
+}
+
+/* ----------------------
+-------- BUTTONS --------
+-----------------------*/
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #FFF3F4;
+  font-size: 10em;
+}
+
+button#category {
+  width: 90%;
+  margin: 20px;
+  background-color: #7F272C;
+  border: 1px solid #CCC2C3;
+  border-radius: 10px;
+}

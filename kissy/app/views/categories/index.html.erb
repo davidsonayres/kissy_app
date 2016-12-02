@@ -1,5 +1,5 @@
-<h1>Categories</h1>
-
+<div class="category_wrap">
 <% @categories.each do |category| %>
-<button><%= link_to category.name, category_kisses_path(category) %></button></br>
+<button id='category'><%= link_to category.name, category_kisses_path(category) %></button></br>
 <% end %>
+</div>
