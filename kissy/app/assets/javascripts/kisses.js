@@ -6,7 +6,7 @@ $(function(){
       dataType: 'html'
     }).done(function(responseData){
       console.log(responseData);
-      $('div#kisses').html(responseData);
+      $('div#kiss').html(responseData);
     });
   });
 })
