@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ /* ----------------------
+ ---------- LOGO ---------
+ -----------------------*/
+
+button#logo {
+  display: block;
+  background-color: #FFF3F4;
+  border: 1px solid #7F272C;
+  border-radius: 100%;
+  margin: 10px auto;
+  width: 80px;
+  height: 80px;
+ }
+
+ button#logo a:link,
+ button#logo a:active,
+ button#logo a:visited {
+   text-decoration: none;
+   color: #FFF3F4;
+   font-family: 'Cedarville Cursive', cursive;
+   font-size: 22px;
+   color: #FF7078;
+   margin: 0 auto 0 auto;
+   text-align: center;
+ }
