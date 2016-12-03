@@ -2,49 +2,53 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@media (min-width: 320px) and (max-width: 767px) {
+
 /* ----------------------
 -------- BUTTONS --------
 -----------------------*/
 
-a:link,
-a:active,
-a:visited {
-  text-decoration: none;
-  color: #FFF3F4;
-  font-size: 40px;
-}
+  a:link,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: #FFF3F4;
+    font-size: 40px;
+  }
 
-button#kiss_generator {
-  display: block;
-  width: 30%;
-  height: 12%;
-  margin: 30px auto;
-  background-color: #7F272C;
-  border-radius: 12px;
-  border: none;
-  box-shadow: 0px 15px #CCC2C3;
-  outline-style: none;
-  color: #FFF3F4;
-  font-size: 40px;
-}
+  button#kiss_generator {
+    display: block;
+    width: 45%;
+    height: 10%;
+    margin: 20px auto;
+    background-color: #7F272C;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 8px #CCC2C3;
+    outline-style: none;
+    color: #FFF3F4;
+    font-size: 1em;
+  }
 
-button#kiss_generator:active {
-  box-shadow: 0px 10px #CCC2C3;
-  transform: translateY(5px);
-}
+  button#kiss_generator:active {
+    box-shadow: 0px 3px #CCC2C3;
+    transform: translateY(5px);
+  }
 
 /* ----------------------
 --------- KISSES --------
 -----------------------*/
 
-div#kiss {
-  height: 63vh;
-  position: relative;
-  overflow: hidden;
-}
+  div#kiss {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+  }
 
-div#kiss p {
-  font-size: 8em;
-  text-align: center;
-  margin: 10% auto;
+  div#kiss p {
+    font-size: 3em;
+    text-align: center;
+    margin: 10% auto;
+    padding-top: 10%;
+  }
 }
