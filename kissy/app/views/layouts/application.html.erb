@@ -6,6 +6,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
 
@@ -14,7 +17,9 @@
   <body>
     <%= yield %>
 
-    <button id='logo'><%= link_to 'Kissy', root_path %></button>
+    <div class="logo_wrap">
+      <button id='logo'><%= link_to 'Kissy', root_path %></button>
+    </div>
 
   </body>
 </html>

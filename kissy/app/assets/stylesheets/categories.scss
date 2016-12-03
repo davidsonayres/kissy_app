@@ -2,46 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-* {
-  font-family: 'Sansita One', cursive;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #FF7078;
-  color: #FFF3F4;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  top: 0;
-}
-
 /* ----------------------
 -------- BUTTONS --------
 -----------------------*/
 
-a:link,
-a:active,
-a:visited {
-  text-decoration: none;
-  color: #FFF3F4;
-  font-size: 40px;
-}
+@media (min-width: 320px) and (max-width: 767px) {
 
-button#category {
-  display: block;
-  margin: 5% auto 5% auto;
-  width: 80%;
-  max-width: 90%;
-  height: 12%;
-  background-color: #7F272C;
-  border-radius: 12px;
-  border: none;
-  box-shadow: 0px 15px #CCC2C3;
-  outline-style: none;
-}
+  div#category_wrap {
+    padding-top: 3%;
+    height: 80%;
+  }
 
-button#category:active {
-  box-shadow: 0px 10px #CCC2C3;
-  transform: translateY(5px);
+  a:link,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: #FFF3F4;
+    font-size: 40px;
+  }
+
+  button#category {
+    display: block;
+    margin: 8% auto;
+    width: 80%;
+    max-width: 90%;
+    height: 15%;
+    background-color: #7F272C;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 8px #CCC2C3;
+    outline-style: none;
+  }
+
+  button#category:active {
+    box-shadow: 0px 3px #CCC2C3;
+    transform: translateY(5px);
+  }
 }
