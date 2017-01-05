@@ -8,7 +8,9 @@
 
 div#category_wrap {
   padding-top: 3%;
-  height: 80%;
+  height: 450px;
+  position: relative;
+  margin-top: 100px;
 }
 
 a:link,
@@ -21,10 +23,11 @@ a:visited {
 
 button#category {
   display: block;
+  position: relative;
   margin: 8% auto;
   width: 80%;
   max-width: 90%;
-  height: 15%;
+  height: 20%;
   background-color: #7F272C;
   border-radius: 12px;
   border: none;

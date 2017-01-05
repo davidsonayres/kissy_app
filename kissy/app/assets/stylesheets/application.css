@@ -18,36 +18,52 @@
   font-family: 'Sansita One', cursive;
   box-sizing: border-box;
   color: #FFF3F4;
-  height: 100vh;
   padding: 0;
   margin: 0;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   position: relative;
-  height: 480px;
+  height: 100%;
+  width: 100%;
   background-color: #FF7078;
 }
 
-/* ----------------------
----------- LOGO ---------
------------------------*/
-
-div.logo_wrap {
-  height: 20%;
+nav {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: auto;
+  width: 250px;
+  height: 100%;
+  left: 0;
+  border-right: 10px solid #7F272C;
   text-align: center;
-  overflow: visible;
 }
+
+h1.big_kiss {
+  position: fixed;
+  left: 0;
+  top: 210px;
+  font-size: 16em;
+  line-height: 0.95;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.4;
+  transform: rotate(-90deg);
+}
+
+/* ----------------------
+------ NAV BUTTONS ------
+-----------------------*/
 
 button#logo {
   background-color: #FFF3F4;
   border: 1px solid #7F272C;
   border-radius: 100%;
-  margin: -1em auto;
+  margin: 2em auto;
   width: 70px;
   height: 70px;
   box-shadow: 2px 6px #CCC2C3;
@@ -67,4 +83,10 @@ button#logo a:visited {   text-decoration: none;   color: #FFF3F4;
 button#logo:active {
   box-shadow: 0px 2px #CCC2C3;
   transform: translateY(3px);
+}
+
+
+button#categories {
+  position: relative;
+  margin: 100px auto auto;
 }

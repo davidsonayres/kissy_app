@@ -15,11 +15,18 @@
   </head>
 
   <body>
-    <%= yield %>
 
-    <div class="logo_wrap">
+    <nav>
       <button id='logo'><%= link_to 'Kissy', root_path %></button>
-    </div>
+
+      <p>Welcome, baby!</p>
+
+      <button id='categories'><%= link_to 'Categories', categories_path %></button>
+    </nav>
+
+    <h1 class="big_kiss">KISSY</h1>
+
+    <%#= yield %>
 
   </body>
 </html>
