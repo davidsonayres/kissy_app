@@ -6,36 +6,33 @@
 -------- BUTTONS --------
 -----------------------*/
 
-@media (min-width: 320px) and (max-width: 767px) {
+div#category_wrap {
+  padding-top: 3%;
+  height: 80%;
+}
 
-  div#category_wrap {
-    padding-top: 3%;
-    height: 80%;
-  }
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #FFF3F4;
+  font-size: 40px;
+}
 
-  a:link,
-  a:active,
-  a:visited {
-    text-decoration: none;
-    color: #FFF3F4;
-    font-size: 40px;
-  }
+button#category {
+  display: block;
+  margin: 8% auto;
+  width: 80%;
+  max-width: 90%;
+  height: 15%;
+  background-color: #7F272C;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0px 8px #CCC2C3;
+  outline-style: none;
+}
 
-  button#category {
-    display: block;
-    margin: 8% auto;
-    width: 80%;
-    max-width: 90%;
-    height: 15%;
-    background-color: #7F272C;
-    border-radius: 12px;
-    border: none;
-    box-shadow: 0px 8px #CCC2C3;
-    outline-style: none;
-  }
-
-  button#category:active {
-    box-shadow: 0px 3px #CCC2C3;
-    transform: translateY(5px);
-  }
+button#category:active {
+  box-shadow: 0px 3px #CCC2C3;
+  transform: translateY(5px);
 }

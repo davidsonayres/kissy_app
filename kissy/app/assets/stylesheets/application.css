@@ -14,65 +14,57 @@
  *= require_self
  */
 
- * {
-   font-family: 'Sansita One', cursive;
-   box-sizing: border-box;
-   color: #FFF3F4;
-   height: 100vh;
-   padding: 0;
-   margin: 0;
- }
+* {
+  font-family: 'Sansita One', cursive;
+  box-sizing: border-box;
+  color: #FFF3F4;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
 
-@media (min-width: 768px) and (max-width: 1023px) {}
-
-@media (min-width: 1024px) {}
-
-@media (min-width: 320px) and (max-width: 767px) {
-
-  body {
-    position: relative;
-    height: 480px;
-    background-color: #FF7078;
-  }
+body {
+  position: relative;
+  height: 480px;
+  background-color: #FF7078;
+}
 
 /* ----------------------
 ---------- LOGO ---------
 -----------------------*/
 
-  div.logo_wrap {
-    height: 20%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    overflow: visible;
-  }
+div.logo_wrap {
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  overflow: visible;
+}
 
-  button#logo {
-    background-color: #FFF3F4;
-    border: 1px solid #7F272C;
-    border-radius: 100%;
-    margin: -1em auto;
-    width: 70px;
-    height: 70px;
-    box-shadow: 2px 6px #CCC2C3;
-    outline-style: none;
-  }
+button#logo {
+  background-color: #FFF3F4;
+  border: 1px solid #7F272C;
+  border-radius: 100%;
+  margin: -1em auto;
+  width: 70px;
+  height: 70px;
+  box-shadow: 2px 6px #CCC2C3;
+  outline-style: none;
+}
 
-  button#logo a:link,
-  button#logo a:active,
-  button#logo a:visited {   text-decoration: none;   color: #FFF3F4;
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 22px;
-    color: #FF7078;
-    margin: 0 auto 0 auto;
-    text-align: center;
-  }
+button#logo a:link,
+button#logo a:active,
+button#logo a:visited {   text-decoration: none;   color: #FFF3F4;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 22px;
+  color: #FF7078;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
 
-  button#logo:active {
-    box-shadow: 0px 2px #CCC2C3;
-    transform: translateY(3px);
-  }
-
+button#logo:active {
+  box-shadow: 0px 2px #CCC2C3;
+  transform: translateY(3px);
 }
