@@ -39,7 +39,7 @@ nav {
   width: 250px;
   height: 100%;
   left: 0;
-  border-right: 10px solid #7F272C;
+  background: linear-gradient(90deg, #7F272C, #FF7078);
   text-align: center;
 }
 
@@ -55,8 +55,16 @@ h1.big_kiss {
   transform: rotate(-90deg);
 }
 
+div.yield {
+  width: 65%;
+  height: 100%;
+  float: right;
+  position: relative;
+  padding: 2%;
+}
+
 /* ----------------------
------- NAV BUTTONS ------
+-------- NAV BAR --------
 -----------------------*/
 
 button#logo {
