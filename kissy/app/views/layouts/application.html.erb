@@ -17,16 +17,20 @@
   <body>
 
     <nav>
-      <button id='logo'><%= link_to 'Kissy', root_path %></button>
-
-      <p>Welcome, baby!</p>
+      <div id="logo">
+        <a href="/">
+          <img class="lips3" src="http://66.media.tumblr.com/25a4214733ebd8d62dba20e8bbbce0c3/tumblr_mk19vsmgYs1rkfhmbo1_500.png">
+          <h1>Kissy</h1>
+        </a>
+      </div>
 
       <button id='categories'><%= link_to 'Categories', categories_path %></button>
+      <img class="lips2" src="http://66.media.tumblr.com/25a4214733ebd8d62dba20e8bbbce0c3/tumblr_mk19vsmgYs1rkfhmbo1_500.png">
     </nav>
 
     <h1 class="big_kiss">KISSY</h1>
-
     <div class="yield">
+      <img class="lips1" src="http://66.media.tumblr.com/25a4214733ebd8d62dba20e8bbbce0c3/tumblr_mk19vsmgYs1rkfhmbo1_500.png">
       <%= yield %>
     </div>
 

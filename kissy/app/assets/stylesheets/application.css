@@ -63,24 +63,43 @@ div.yield {
   padding: 2%;
 }
 
+img.lips1 {
+  z-index: -1;
+  position: fixed;
+  transform: rotate(35deg);
+  right: 0;
+  top: 0;
+  opacity: 0.6;
+}
+
 /* ----------------------
 -------- NAV BAR --------
 -----------------------*/
 
-button#logo {
-  background-color: #FFF3F4;
-  border: 1px solid #7F272C;
-  border-radius: 100%;
-  margin: 2em auto;
-  width: 70px;
-  height: 70px;
-  box-shadow: 2px 6px #CCC2C3;
+div#logo {
+  margin: 5% auto;
+  width: 70%;
+  height: 20%;
   outline-style: none;
 }
 
-button#logo a:link,
-button#logo a:active,
-button#logo a:visited {   text-decoration: none;   color: #FFF3F4;
+img.lips3 {
+  width: 100%;
+  transform: rotate(-7deg);
+}
+
+div#logo h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 2.25em;
+  text-shadow: 2px 2px #6E2226;
+  position: fixed;
+  top: 0;
+  margin: 4.25% 2% 0 4%;
+}
+
+div#logo a:link,
+div#logo a:active,
+div#logo a:visited {   text-decoration: none;   color: #FFF3F4;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 22px;
   color: #FF7078;
@@ -88,13 +107,18 @@ button#logo a:visited {   text-decoration: none;   color: #FFF3F4;
   text-align: center;
 }
 
-button#logo:active {
-  box-shadow: 0px 2px #CCC2C3;
-  transform: translateY(3px);
-}
-
-
 button#categories {
   position: relative;
   margin: 100px auto auto;
+}
+
+img.lips2 {
+  position: absolute;
+  transform: rotate(-35deg);
+  bottom: 0;
+  left: 0;
+  margin-left: -20%;
+  margin-bottom: -45%;
+  width: 340px;
+  opacity: 0.3;
 }
