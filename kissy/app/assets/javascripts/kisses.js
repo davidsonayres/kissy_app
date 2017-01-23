@@ -1,7 +1,7 @@
 $(function(){
   $('#kiss_generator').on('click', function(){
     $.ajax({
-      url: 'http://localhost:3000/categories/1/random_kiss',
+      url: 'random_kiss',
       method: 'GET',
       dataType: 'html'
     }).done(function(responseData){

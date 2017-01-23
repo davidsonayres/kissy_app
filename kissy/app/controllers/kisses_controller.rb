@@ -16,7 +16,8 @@ class KissesController < ApplicationController
   end
 
   def random
-    kiss = Kiss.all.sample
+    kisses = Kiss.all.where(category_id: params[:category_id])
+    kiss = kisses.sample
     render html: kiss.content
   end
 
