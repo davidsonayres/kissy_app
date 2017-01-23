@@ -1,0 +1,2 @@
+class ShadeCategory < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class ShadesController < ApplicationController
+end
