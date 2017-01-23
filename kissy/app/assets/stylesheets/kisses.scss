@@ -6,6 +6,12 @@
 --------- KISSES --------
 -----------------------*/
 
+div.category_title {
+  text-align: center;
+  text-shadow: 2px 2px #6E2226;
+  margin: 3% auto 0;
+}
+
 div#kiss {
   max-height: 80%;
   position: relative;
@@ -15,7 +21,7 @@ div#kiss {
 div#kiss p {
   font-size: 3em;
   text-align: center;
-  margin: 10% auto;
+  margin: 9% 2% 10%;
   padding-top: 10%;
 }
 
