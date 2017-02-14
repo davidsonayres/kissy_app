@@ -6,7 +6,12 @@ Kissy provides you with blind encouragement from a cache of saved phrases relate
 
 * DEVELOPMENT
 
-To work on Kissy locally, all you need to do is fork this git repository and make a clone on your local machine, create a branch to work from, and you're all set.
+To work on Kissy locally, follow these steps:
+
+1. Create a project folder
+2. Fork Kissy's git repository
+3. Clone or download the repository into your project folder
+4. Create a branch to work from
 
 * CONTRIBUTORS
 
